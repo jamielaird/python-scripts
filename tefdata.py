@@ -18,10 +18,10 @@ with open (ihandle) as csvfile:
 
         # Read from the specified fields
         url = row["URL"]
-        filename = row["Filename"]
+        filename = row["University"]
 
         # Set the output file and url
-        outfilename = "C:/Users/jamie.laird/OD/My Documents/2017/2017-06-22 TEF 2017/Excel/"+filename
+        outfilename = "C:/Users/jamie.laird/OD/My Documents/2017/2017-06-22 TEF 2017/Excel/"+filename+".xlsx"
         url_of_file = url
 
         # Retrieve from url and save to disk
